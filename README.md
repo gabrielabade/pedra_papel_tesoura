@@ -28,7 +28,7 @@ O jogo também possui uma versão responsiva, ajustando-se automaticamente a dif
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript-logo">
   
   ## Demonstração
-  <img src="./assets/exemplo_empate.jpg" alt="exemplo-empate" width="225px"/>
-<img src="./assets/exemplo_ganhou.jpg" alt="exemplo-ganhou" width="225px"/>
-<img src="./assets/exemplo_perdeu.jpg" alt="exemplo-perdeu" width="225px"/>
+  <img src="./assets/exemplo-empate.png" alt="exemplo-empate" width="225px"/>
+<img src="./assets/exemplo-ganhou.png" alt="exemplo-ganhou" width="225px"/>
+<img src="./assets/exemplo-perdeu.png" alt="exemplo-perdeu" width="225px"/>
 </div>
