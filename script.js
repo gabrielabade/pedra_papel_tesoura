@@ -4,6 +4,7 @@ const marioSelection = document.getElementById("mario-selection");
 const resultadoImg = document.getElementById("resultado");
 const humanScore = document.querySelector("#human-score");
 const machineScore = document.querySelector("#machine-score");
+const gameButtons = document.querySelectorAll(".game-button");
 
 let humanScoreNumber = 0;
 let machineScoreNumber = 0;
@@ -54,3 +55,17 @@ const playTheGame = (human, machine) => {
 const displayMarioChoice = (choice) => {
   marioSelection.innerHTML = choice;
 };
+
+
+const changeButtonColor = (event) => {
+  
+  event.target.style.backgroundColor = "#d3ffce";
+  setTimeout(() => {
+      event.target.style.backgroundColor = "#ffffff"; 
+  }, 2000); 
+};
+
+// Adicione o evento de clique a cada botão
+gameButtons.forEach((button) => {
+  button.addEventListener("click", changeButtonColor);
+});
