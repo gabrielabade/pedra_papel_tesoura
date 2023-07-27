@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>JokenPô</title>
+</head>
+
+<body class="mobile-background" src="./assets/FUNDOMARIO.jpg">
+    <div class="container">
+        <h1>JokenPô</h1>
+        <p>Selecione pedra, papel ou tesoura:</p>
+        <div class="buttons">
+            <button id="pedra" onclick="playHuman('pedra')"></button>
+            <button id="papel" onclick="playHuman('papel')"></button>
+            <button id="tesoura" onclick="playHuman('tesoura')"></button>
+        </div>
+        <div class="mario-choice" style="display: none;">
+            Mario escolheu <span id="mario-selection"></span>
+        </div>
+        <p class="result" id="result-text"></p>
+        <img src="./assets/empate2.png" alt="Resultado" title="Resultado" id="resultado" class="empate-image" />
+
+        <p class="your-score">Sua Pontuação: <span id="human-score">0</span></p>
+        <p class="machine-score">Pontuação do Mario: <span id="machine-score">0</span></p>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
